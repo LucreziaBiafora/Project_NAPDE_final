@@ -1,9 +1,9 @@
-%% Fixed randomicity to reproduce experience
+%% Fixed randomicity to reproduce experiences
 clear 
 close all 
 stream = RandStream('dsfmt19937','Seed',3);
 
-%% ============= 1 - Load problem - =============
+%% ============= 1 - Load problem - ==============
 %% Define the problem(s)
 % Important to check all the parameters in '.ini' file before to run
 
